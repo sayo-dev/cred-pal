@@ -1,6 +1,7 @@
+import 'package:cred_pal/core/constants/constants.dart';
+import 'package:cred_pal/features/home/presentation/home.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
 
 class CredPal extends StatelessWidget {
   const CredPal({super.key});
@@ -8,10 +9,10 @@ class CredPal extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      designSize: Size(414, 1107),
+      designSize: designSize,
       minTextAdapt: true,
       splitScreenMode: true,
-      child: MaterialApp(debugShowCheckedModeBanner: false),
+      child: MaterialApp(debugShowCheckedModeBanner: false, home: Home()),
     );
   }
 }

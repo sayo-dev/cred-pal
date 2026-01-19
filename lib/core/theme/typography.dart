@@ -6,47 +6,47 @@ const String avenir = 'Avenir';
 const String axiforma = 'Axiforma';
 
 mixin Avenir on TextStyle {
-  static TextStyle avenirW3 = TextStyle(
+  static TextStyle w3 = TextStyle(
     fontFamily: avenir,
     fontWeight: FontWeight.w300,
     fontSize: 16.spMin,
     color: AppColors.k1A1A1A,
   );
 
-  static TextStyle avenirW4 = TextStyle(
+  static TextStyle w4 = TextStyle(
     fontFamily: avenir,
     fontWeight: FontWeight.w400,
     fontSize: 16.spMin,
     color: AppColors.k1A1A1A,
   );
 
-  static TextStyle avenirW5 = TextStyle(
+  static TextStyle w5 = TextStyle(
     fontFamily: avenir,
     fontWeight: FontWeight.w500,
     fontSize: 16.spMin,
     color: AppColors.k1A1A1A,
   );
 
-  static TextStyle avenirW6 = TextStyle(
+  static TextStyle w6 = TextStyle(
     fontFamily: avenir,
     fontWeight: FontWeight.w600,
     fontSize: 16.spMin,
     color: AppColors.k1A1A1A,
   );
 
-  static TextStyle avenirW7 = TextStyle(
+  static TextStyle w7 = TextStyle(
     fontFamily: avenir,
     fontWeight: FontWeight.w700,
     fontSize: 16.spMin,
     color: AppColors.k1A1A1A,
   );
-  static TextStyle avenirW8 = TextStyle(
+  static TextStyle w8 = TextStyle(
     fontFamily: avenir,
     fontWeight: FontWeight.w800,
     fontSize: 16.spMin,
     color: AppColors.k1A1A1A,
   );
-  static TextStyle avenirW9 = TextStyle(
+  static TextStyle w9 = TextStyle(
     fontFamily: avenir,
     fontWeight: FontWeight.w900,
     fontSize: 16.spMin,
@@ -55,35 +55,35 @@ mixin Avenir on TextStyle {
 }
 
 mixin Axiforma on TextStyle {
-  static TextStyle axiformaW3 = TextStyle(
+  static TextStyle w3 = TextStyle(
     fontFamily: axiforma,
     fontWeight: FontWeight.w300,
     fontSize: 16.spMin,
     color: AppColors.k1A1A1A,
   );
 
-  static TextStyle axiformaW4 = TextStyle(
+  static TextStyle w4 = TextStyle(
     fontFamily: axiforma,
     fontWeight: FontWeight.w400,
     fontSize: 16.spMin,
     color: AppColors.k1A1A1A,
   );
 
-  static TextStyle axiformaW5 = TextStyle(
+  static TextStyle w5 = TextStyle(
     fontFamily: axiforma,
     fontWeight: FontWeight.w500,
     fontSize: 16.spMin,
     color: AppColors.k1A1A1A,
   );
 
-  static TextStyle axiformaW6 = TextStyle(
+  static TextStyle w6 = TextStyle(
     fontFamily: axiforma,
     fontWeight: FontWeight.w600,
     fontSize: 16.spMin,
     color: AppColors.k1A1A1A,
   );
 
-  static TextStyle axiformaW7 = TextStyle(
+  static TextStyle w7 = TextStyle(
     fontFamily: axiforma,
     fontWeight: FontWeight.w700,
     fontSize: 16.spMin,
