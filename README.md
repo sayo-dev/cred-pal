@@ -8,7 +8,7 @@ The focus of this implementation is pixel accuracy, responsiveness and clean UI 
 ## Platforms Supported
 - Android
 - iOS
-- Web (Responsive)
+- Web
 
 ---
 
