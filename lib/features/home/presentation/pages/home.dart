@@ -29,9 +29,20 @@ class Home extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text(
-                    'Pay later \neverywhere',
-                    style: Avenir.w9.copyWith(fontSize: 28.spMin),
+                  Stack(
+                    alignment: AlignmentGeometry.bottomRight,
+                    clipBehavior: Clip.none,
+                    children: [
+                      Text(
+                        'Pay later \neverywhere',
+                        style: Avenir.w9.copyWith(fontSize: 28.spMin),
+                      ),
+                      Positioned(
+                        right: -25,
+                        bottom: 15,
+                        child: SvgPicture.asset(Vectors.info),
+                      ),
+                    ],
                   ),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.end,
@@ -44,31 +55,26 @@ class Home extends StatelessWidget {
                         ),
                       ),
                       h(10),
-                      Row(
-                        children: [
-                          SvgPicture.asset(Vectors.info),
 
-                          FilledButton(
-                            onPressed: () {},
-                            style: FilledButton.styleFrom(
-                              backgroundColor: AppColors.k274FED,
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(4.r),
-                              ),
-                              padding: EdgeInsets.symmetric(
-                                vertical: 8.h,
-                                horizontal: 16.w,
-                              ),
-                            ),
-                            child: Text(
-                              'Activate Credit',
-                              style: Axiforma.w5.copyWith(
-                                fontSize: 13.spMin,
-                                color: AppColors.white,
-                              ),
-                            ),
+                      FilledButton(
+                        onPressed: () {},
+                        style: FilledButton.styleFrom(
+                          backgroundColor: AppColors.k274FED,
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(4.r),
                           ),
-                        ],
+                          padding: EdgeInsets.symmetric(
+                            vertical: 8.h,
+                            horizontal: 16.w,
+                          ),
+                        ),
+                        child: Text(
+                          'Activate Credit',
+                          style: Axiforma.w5.copyWith(
+                            fontSize: 13.spMin,
+                            color: AppColors.white,
+                          ),
+                        ),
                       ),
                     ],
                   ),
