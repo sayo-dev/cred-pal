@@ -12,14 +12,6 @@ The focus of this implementation is pixel accuracy, responsiveness and clean UI 
 
 ---
 
-## Tech Stack
-- Flutter (Stable)
-- flutter_screenutil (responsive sizing)
-- SVG assets
-- Custom typography & theme system
-
----
-
 ## Project Structure
 
 lib/
