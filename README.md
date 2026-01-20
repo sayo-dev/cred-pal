@@ -1,16 +1,56 @@
-# cred_pal
+# CredPal Assessment (Flutter)
 
-A new Flutter project.
+This project is a Flutter UI implementation based on the provided Figma design.
+The focus of this implementation is pixel accuracy, responsiveness and clean UI architecture.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Platforms Supported
+- Android
+- iOS
+- Web (Responsive)
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Tech Stack
+- Flutter (Stable)
+- flutter_screenutil (responsive sizing)
+- SVG assets
+- Custom typography & theme system
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Project Structure
+
+lib/
+├── core/
+│   ├── constants/
+│   ├── theme/
+│   └── utils/
+├── features/
+│   └── home/
+│       ├── data/
+│       │   ├── mocks/
+│       │   └── models/
+│       └── presentation/
+│           ├── pages/
+│           └── widgets/
+└── main.dart
+
+---
+
+## How to Run
+
+### 1. Clone the repository
+
+git clone https://github.com/sayo-dev/cred-pal.git
+cd cred-pal
+
+### 2. Install Dependencies
+
+flutter pub get
+
+### 3. Run the project
+
+Web - flutter run -d chrome
+Android/iOS - flutter run 
