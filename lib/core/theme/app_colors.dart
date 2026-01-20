@@ -10,11 +10,9 @@ class AppColors {
   static const kF4F5FE = Color(0xffF4F5FE);
   static const k9494B8 = Color(0xff9494B8);
   static const kB3B3CC = Color(0xffB3B3CC);
+  static const k24C78B = Color(0xff24C78B);
 
   static const white = Colors.white;
   static const black = Colors.black;
   static const transparent = Colors.transparent;
-
-
-
 }

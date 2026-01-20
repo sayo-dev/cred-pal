@@ -1,5 +1,5 @@
 import 'package:cred_pal/core/constants/constants.dart';
-import 'package:cred_pal/features/home/presentation/home.dart';
+import 'package:cred_pal/features/home/presentation/pages/home.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

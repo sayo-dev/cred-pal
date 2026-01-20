@@ -4,6 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 const String avenir = 'Avenir';
 const String axiforma = 'Axiforma';
+const String productSans = 'Product Sans';
 
 mixin Avenir on TextStyle {
   static TextStyle w3 = TextStyle(
@@ -85,6 +86,40 @@ mixin Axiforma on TextStyle {
 
   static TextStyle w7 = TextStyle(
     fontFamily: axiforma,
+    fontWeight: FontWeight.w700,
+    fontSize: 16.spMin,
+    color: AppColors.k1A1A1A,
+  );
+}
+
+mixin ProductSans on TextStyle {
+  static TextStyle w3 = TextStyle(
+    fontFamily: productSans,
+    fontWeight: FontWeight.w300,
+    fontSize: 16.spMin,
+    color: AppColors.k1A1A1A,
+  );
+
+  static TextStyle w4 = TextStyle(
+    fontFamily: productSans,
+    fontWeight: FontWeight.w400,
+    fontSize: 16.spMin,
+    color: AppColors.k1A1A1A,
+  );
+  static TextStyle w5 = TextStyle(
+    fontFamily: productSans,
+    fontWeight: FontWeight.w500,
+    fontSize: 16.spMin,
+    color: AppColors.k1A1A1A,
+  );
+  static TextStyle w6 = TextStyle(
+    fontFamily: productSans,
+    fontWeight: FontWeight.w600,
+    fontSize: 16.spMin,
+    color: AppColors.k1A1A1A,
+  );
+  static TextStyle w7 = TextStyle(
+    fontFamily: productSans,
     fontWeight: FontWeight.w700,
     fontSize: 16.spMin,
     color: AppColors.k1A1A1A,

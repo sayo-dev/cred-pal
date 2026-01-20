@@ -97,6 +97,14 @@ flutter:
         - asset: assets/fonts/Axiforma/Axiforma-Regular.ttf
         - asset: assets/fonts/Axiforma/Axiforma-SemiBold.ttf
         - asset: assets/fonts/Axiforma/Axiforma-Thin.ttf
+    - family: Product Sans
+      fonts:
+        - asset: assets/fonts/product-sans/ProductSans-Black.ttf
+        - asset: assets/fonts/product-sans/ProductSans-Bold.ttf
+        - asset: assets/fonts/product-sans/ProductSans-Light.ttf
+        - asset: assets/fonts/product-sans/ProductSans-Medium.ttf
+        - asset: assets/fonts/product-sans/ProductSans-Regular.ttf
+        - asset: assets/fonts/product-sans/ProductSans-Thin.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
